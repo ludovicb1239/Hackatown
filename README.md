@@ -1,0 +1,2 @@
+# Hackatown
+Hackatown's fourth edition focuses on the concept of the smart city. In today's world, we are surrounded by data. Those range from statistics about transportation or the reviews of a restaurant, we can access lots of data. Sadly, in the majority of cases, those data sets stay unused in some poor database instead of being used to better our world. Hackatown's objective is to create products harnessing those data sets in a creative and useful manner to make our urban societies evolve.
