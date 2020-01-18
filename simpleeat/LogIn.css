@@ -1,0 +1,98 @@
+<style type="text/css">
+@font-face {
+    font-family: "Poppins";
+    src: url(https://fonts.googleapis.com/css?family=Poppins&display=swap) format("stylesheet");
+}
+#title{
+  position: absolute;
+  width: 300px;
+  height: 120px;
+  left: calc(50% - 300px/2);
+  top: 46px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  text-align: center;
+
+  color: #000000;
+}
+#account{
+  position: absolute;
+  width: 305px;
+  height: 26px;
+  left: calc(50% - 305px/2 - 2.5px);
+  bottom: 7px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #000000;
+}
+.LogIn{
+  position: absolute;
+  width: 271px;
+  height: 51px;
+  left: calc(50% - 271px/2 - 2.5px);
+  top: calc(50% - 51px/2 + 94.5px);
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #7A189D;
+  color: #FFFFFF;
+}
+.Email{
+  position: absolute;
+  width: 271px;
+  height: 51px;
+  left: calc(50% - 271px/2 - 2.5px);
+  top: calc(50% - 51px/2 - 70.5px);
+
+  background: #F1F1F1;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.Password{
+  position: absolute;
+  width: 271px;
+  height: 51px;
+  left: calc(50% - 271px/2 - 2.5px);
+  top: calc(50% - 51px/2 + 4.5px);
+
+  background: #F1F1F1;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+input{
+  border: none;
+  outline: none;
+}
+button{
+  border: none;
+  outline: none;
+  background: none;
+}
