@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+
+    <link rel="shorcut icon" href="favicon.png" type="image/x-icon">
+
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
     <meta charset="utf-8">
@@ -9,12 +12,11 @@
     <script src="index.js" charset="utf-8"></script>
   </head>
   <body>
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
     <h1 id="title">SimplEat</h1>
-    <button class="LogIn" type="submit" onclick="SendLogInfo()">Log in</button>
+    <button class="LogIn" type="submit" onclick="SendMenu()">Log in</button>
 
-    <h3 id="account">Don't have an account? <b>Sign up here</b></h3>
+    <button class="account" type="submit" onclick="SendLogInfo()">Don't have an account? <b>Sign up here</b></button>
+
     <input id = "username" placeholder="username or email" type="username" name="Email" class="Email" value="">
     <input id = "password" placeholder="password" type="password" name="Password" class="Password" value="">
   </body>
