@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="shorcut icon" href="favicon.png" type="image/x-icon">
+
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
     <meta charset="utf-8">
@@ -9,61 +11,100 @@
     <script src="index.js" charset="utf-8"></script>
   </head>
   <body>
-    <h1 class="title">SimplEat</h1>
     <h2 class="semiTitle">Your Week</h2>
     <table class="weekdays">
       <tbody>
         <tr>
           <td>
             <div class="cellContainer">
-              <h1 class="titleDay">Saturday</h1>
+              <button class="titleDay" type="submit" onclick="goDiner()">Saturday</button>
               </div>
           </td>
         </tr>
           <tr>
             <td>
               <div class="cellContainer">
-                <h1 class="titleDay">Sunday</h1>
+                <button class="titleDay" type="submit" onclick="goDiner()">Sunday</button>
                 </div>
             </td>
           </tr>
             <tr>
               <td>
                 <div class="cellContainer">
-                  <h1 class="titleDay">Monday</h1>
+                  <button class="titleDay" type="submit" onclick="goDiner()">Monday</button>
                 </div>
               </td>
             </tr>
               <tr>
                 <td>
                   <div class="cellContainer">
-                    <h1 class="titleDay">Tuesday</h1>
+                    <button class="titleDay" type="submit" onclick="goDiner()">Tuesday</button>
                   </div>
                 </td>
               </tr>
                 <tr>
                   <td>
                     <div class="cellContainer">
-                      <h1 class="titleDay">Wednesday</h1>
+                      <button class="titleDay" type="submit" onclick="goDiner()">Wednesday</button>
                     </div>
                   </td>
                 </tr>
                   <tr>
                     <td>
                       <div class="cellContainer">
-                        <h1 class="titleDay">Thursday</h1>
+                        <button class="titleDay" type="submit" onclick="goDiner()">Thursday</button>
                       </div>
                     </td>
                   </tr>
                     <tr>
                       <td>
                         <div class="cellContainer">
-                          <h1 class="titleDay">Friday</h1>
+                          <button class="titleDay" type="submit" onclick="goDiner()">Friday</button>
                         </div>
                       </td>
                     </tr>
       </tbody>
     </table>
-    <h3 class="bottom"</h3>
+    <h2 class="semiTitle1">Your day</h2>
+    <table class="times">
+      <tbody>
+        <tr>
+          <td>
+            <div class="cellContainer">
+              <button class="time" type="submit" onclick="SendMenu0()">Breakfast</button>
+              </div>
+          </td>
+        </tr>
+          <tr>
+            <td>
+              <div class="cellContainer">
+                <button class="time" type="submit" onclick="SendMenu0()">Lunch</button>
+                </div>
+            </td>
+          </tr>
+            <tr>
+              <td>
+                <div class="cellContainer">
+                  <button class="time" type="submit" onclick="SendMenu0()">Supper</button>
+                </div>
+              </td>
+            </tr>
+      </tbody>
+    </table>
+    <h2 class="semiTitle2">Saturday's breakfast</h2>
+    <table class="weekdays">
+      <tbody>
+        <tr>
+          <td>
+            <div class="bigCellContainer">
+              <h1 id ="generate">Generate new recipe</h1>
+              </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h1 class="title">SimplEat</h1>
+    <button class="gotoMenu" type="submit" onclick="SendMenu()"></button>
+    <button class="GoToGroceryList" type="submit" onclick="goToGroceryList()"></button>
   </body>
 </html>

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="shorcut icon" href="favicon.png" type="image/x-icon">
+
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
     <meta charset="utf-8">
@@ -12,9 +14,10 @@
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
     <h1 id="title">SimplEat</h1>
-    <button class="CreateNew" type="submit" onclick="CreateNewAccount()"><center>Create an account</center></button>
+    <button class="CreateNew" type="submit" onclick="CreateNewAccount()">Create an account</button>
 
-    <h3 id="account">Already have an account? <b>Log in here</b></h3>
+    <button class="account" type="submit" onclick="GoLogIn()">Already have an account? <b>Log in here</b></button>
+
     <input id = "username" placeholder="username or email" type="email" name="Email" class="Email" value="">
     <input id = "password" placeholder="password" type="password" name="Password" class="Password" value="">
     <input id = "password2" placeholder="repeat password" type="password" name="Password" class="Password2" value="">

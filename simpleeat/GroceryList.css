@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(https://fonts.googleapis.com/css?family=Poppins&display=swap) format("stylesheet");
+}
+.title{
+  position: fixed;
+  height: 60px;
+  left: 0%;
+  right: 0%;
+  top: -25px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+
+  color: #000000;
+  background-color: #F4F4F4;
+}
+.semiTitle{
+  position: absolute;
+  width: 300px;
+  height: 35px;
+  left: 45px;
+  top: 60px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #353535;
+}
+.tableauIngredients{
+  position: absolute;
+  height: 430px;
+  left: 5%;
+  right: 5%;
+  top: 100px;
+}
+.cellContainer{
+  height: 0px;
+}
+.bigCellContainer{
+  height: 80px;
+}
+.Ingredients{
+  position: absolute;
+  width: 300px;
+  height: 20px;
+  left: 100%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+
+  color: #353535;
+  background: 0;
+  border-radius: 7px;
+}
+.bottom{
+  position: fixed;
+  height: 71px;
+  left: 0%;
+  right: 0%;
+  bottom: -30px;
+
+  background: #EFEFEF;
+}
+.addReciepie{
+  position: absolute;
+  width: 300px;
+  height: 66px;
+  left: 100%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+
+  color: #353535;
+  background: #F1F1F1;
+  border-radius: 7px;
+}
+button{
+  border: none;
+  outline: none;
+  background: none;
+}
+.gotoMenu{
+  position:fixed;
+  width: 40px;
+  height: 40px;
+  left: 60px;
+  top: 10px;
+
+  background: url(CalendarIcon.png);
+}
+.GoToGroceryList{
+  position:fixed;
+  width: 50px;
+  height: 40px;
+  right: 60px;
+  top: 10px;
+
+  background: url(shoppingcart.png);
+
+}

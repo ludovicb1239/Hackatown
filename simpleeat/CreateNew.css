@@ -19,12 +19,12 @@
 
   color: #000000;
 }
-#account{
+.account{
   position: absolute;
   width: 305px;
   height: 26px;
   left: calc(50% - 305px/2 - 2.5px);
-  bottom: 7px;
+  bottom: 30px;
 
   font-family: Poppins;
   font-style: normal;
@@ -49,7 +49,6 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
-  display: flex;
   align-items: center;
   text-align: center;
   color: #FFFFFF;

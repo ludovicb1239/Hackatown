@@ -20,15 +20,16 @@
   background-color: #F4F4F4;
 }
 .semiTitle{
+
   position: absolute;
   width: 300px;
-  height: 35px;
-  left: 30px;
+  height: 51px;
+  left: 45px;
   top: 60px;
 
   font-family: Poppins;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 900;
   font-size: 24px;
   line-height: 36px;
 
@@ -37,7 +38,7 @@
 .weekdays{
   position: absolute;
   height: 430px;
-  left: 5%;
+  left: 40px;
   right: 5%;
   top: 121px;
 }
@@ -91,4 +92,136 @@
   color: #353535;
   background: #F1F1F1;
   border-radius: 7px;
+}
+button{
+  border: none;
+  outline: none;
+  background: none;
+}
+.GoToGroceryList{
+  position:fixed;
+  width: 50px;
+  height: 40px;
+  right: 60px;
+  top: 10px;
+
+  background: url(shoppingcart.png);
+
+}
+.gotoMenu{
+  position:fixed;
+  width: 40px;
+  height: 40px;
+  left: 60px;
+  top: 10px;
+
+  background: url(CalendarIcon.png);
+}
+#generate{
+  position: absolute;
+  width: 300px;
+  height: 66px;
+  left: 700px;
+  top: 20px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #353535;
+  background: #F1F1F1;
+  border-radius: 7px;
+
+}
+.semiTitle1{
+  position: absolute;
+  width: 300px;
+  height: 60px;
+  left: 380px;
+  top: 60px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #353535;
+}
+.times{
+  position: absolute;
+  height: 430px;
+  left: 30px;
+  right: 5%;
+  top: 121px;
+}
+.time{
+  position:absolute;
+  width: 300px;
+  height: 100px;
+  left: 350px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+
+  color: #353535;
+  background: #F1F1F1;
+  border-radius: 7px;
+}
+.bottom{
+  position: fixed;
+  height: 71px;
+  left: 0%;
+  right: 0%;
+  bottom: -30px;
+
+  background: #EFEFEF;
+}
+.addReciepie{
+  position: absolute;
+  width: 300px;
+  height: 66px;
+  left: 100%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+
+  color: #353535;
+  background: #F1F1F1;
+  border-radius: 7px;
+}
+.semiTitle2{
+  position: absolute;
+  width: 300px;
+  height: 60px;
+  left: 740px;
+  top: 60px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #353535;
+}
+button{
+  border: none;
+  outline: none;
+  background: none;
 }
